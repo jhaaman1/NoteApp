@@ -1,0 +1,24 @@
+
+
+.lists{
+    display: flex;
+    gap: 4px;
+    list-style: none;
+}
+
+.buttons {
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 50px;
+    border: none;
+    margin: auto;
+    color: #ffffff;
+    background-color: #2f69fe;
+    cursor: pointer;
+  }
+
+  .btnText{
+    display: flex;
+    gap: 4px;
+    margin-top: 13px;
+  }

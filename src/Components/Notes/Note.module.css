@@ -1,0 +1,118 @@
+.mainContainer {
+  background-color: #000118;
+  width: 100%;
+  height: 1000px;
+}
+
+.container {
+  width: 500px;
+  height: 75%;
+  margin: auto;
+  margin-top: 32px;
+  border-radius: 2rem;
+  background-color: #ffffff;
+}
+
+.imageTodo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageTodo img {
+  width: 60%;
+  /* height: 30%; */
+  /* border: 2px dotted black; */
+  margin: auto;
+  border-radius: 1.5rem;
+  margin-top: 32px;
+}
+
+.imageTodo h1 {
+  position: absolute;
+  top: 30%;
+  font-size: 3rem;
+  color: #597fe0;
+}
+
+.inputBox {
+  display: flex;
+  gap: 2;
+  margin-top: 1rem;
+}
+
+.inputBox input {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.todoList {
+  width: 80%;
+  height: 40%;
+  margin: auto;
+  margin-top: 24px;
+  border-radius: 1.5rem;
+  margin-bottom: 32px;
+}
+
+.btnaddTask {
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  margin-left: 30px;
+}
+
+.doneTask {
+  text-decoration: line-through;
+}
+
+.buttons {
+  width: 20%;
+  border-radius: 0.5rem;
+  height: 50px;
+  /* margin-top: 14px; */
+  border: none;
+  margin: auto;
+  color: #ffffff;
+  background-color: #2f69fe;
+  cursor: pointer;
+}
+
+.taskListHeading {
+  display: flex;
+  justify-content: center;
+}
+
+.taskListHeading input {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.totalList {
+  display: flex;
+  gap: 1rem;
+}
+.totalList tr {
+  margin-top: 32px;
+}
+
+.todoListText {
+  position: relative;
+  display: block;
+  bottom: 50%;
+  display: flex;
+  gap: 1rem;
+
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
